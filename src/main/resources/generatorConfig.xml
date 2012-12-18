@@ -8,9 +8,9 @@
 
 	<context id="DB2Tables" targetRuntime="MyBatis3">
 		<jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
-			connectionURL="jdbc:oracle:thin:@211.151.61.121:1521:oracle10g"
-			userId="test"
-			password="test">
+			connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:oracle10g"
+			userId="root"
+			password="">
 		</jdbcConnection>
 
 		<javaTypeResolver >
